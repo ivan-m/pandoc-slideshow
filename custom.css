@@ -1,0 +1,27 @@
+.reveal h1 { font-size: 3em; }
+
+.slides section.has-light-background,
+.slides section.has-light-background h1 {
+    color: FireBrick;
+}
+
+.reveal h6 {
+    text-align: center;
+    font-style: italic;
+    position: fixed;
+    bottom: 1px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+    font-size: 50%;
+}
+
+
+.slides section.has-light-background h6 {
+    color: chocolate;
+    background: ivory;
+}
+
+.reveal pre {
+    width: 100%;
+    font-size: 0.8em;
+}
