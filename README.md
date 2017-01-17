@@ -1,11 +1,14 @@
 pandoc-slideshow
 ================
 
+[![Build Status](https://travis-ci.org/ivan-m/pandoc-slideshow.svg)](https://travis-ci.org/ivan-m/pandoc-slideshow)
+
 This is a base repository for how I make presentations using [Pandoc]
-and reveal.js hosted on [GitHub Pages].
+and reveal.js hosted on [GitHub Pages].  For example, the sample
+slides found in [`Slides.md`] can be found [here].
 
 This assumes that you use pandoc-mode for Emacs to help you write your
-slides.  If you don't, you will need to edit `runPandoc.hs`
+slides.  If you don't, you will need to edit [`runPandoc.hs`]
 appropriately.
 
 Note: whilst I'm currently using `reveal.js` for this, there's no
@@ -32,11 +35,13 @@ Directions for use
    be made in the `shared-data` branch, with master then rebased upon
    that and force-pushed.
 
-4. Make sure you have enabled your branch
-   on your [Travis-CI profile].
+4. Make sure you have enabled your branch on your [Travis-CI profile].
 
 [Pandoc]: http://pandoc.org/
 [reveal.js]: http://lab.hakim.se/reveal-js/
 [GitHub Pages]: https://pages.github.com/
+[`Slides.md`]: Slides.md
+[here]: http://ivan-m.github.io/pandoc-slideshow
+[`runPandoc.hs`]: runPandoc.hs
 [the instructions]: https://docs.travis-ci.com/user/encryption-keys/
 [Travis-CI profile]: https://travis-ci.org/profile
