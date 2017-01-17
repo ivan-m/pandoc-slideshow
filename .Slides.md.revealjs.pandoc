@@ -1,0 +1,16 @@
+;; -*- mode: emacs-lisp -*-
+
+;; pandoc-mode local settings file for Slides.md
+;; saved on 2015.07.21 12:44
+
+((slide-level . 2)
+ (standalone . t)
+ (template . "template.html")
+ (highlight-style . "zenburn")
+ (parse-raw . t)
+ (smart . t)
+ (filter "./notify.hs")
+ (read . "markdown")
+ (write . "revealjs")
+ (output . "Slides.html")
+ (master-file . "Slides.md"))
