@@ -25,7 +25,8 @@ Directions for use
 
     a) Specify the `GH_REPO` to point to your actual repository.
 
-    b) Specify your `secure` key following [the instructions].
+    b) Add a `GH_TOKEN` by [generating] one and then encrypting it
+        (because unless you're me, mine won't work for you).
 
     c) Change the version of GHC and cabal-install if necessary.
 
@@ -43,5 +44,6 @@ Directions for use
 [`Slides.md`]: Slides.md
 [here]: http://ivan-m.github.io/pandoc-slideshow
 [`runPandoc.hs`]: runPandoc.hs
-[the instructions]: https://docs.travis-ci.com/user/encryption-keys/
+[generating]: https://github.com/settings/tokens
+[encrypting]: https://docs.travis-ci.com/user/encryption-keys/
 [Travis-CI profile]: https://travis-ci.org/profile
