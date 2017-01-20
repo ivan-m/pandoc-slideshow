@@ -28,6 +28,10 @@ Directions for use
     b) Add a `GH_TOKEN` by [generating] one and then encrypting it
         (because unless you're me, mine won't work for you).
 
+        Actually, even if you _are_ me, you'll need to re-encrypt it
+        as the encryption used is tied to the repository.  So sorry,
+        but you can't just randomly keep copying this repository :(
+
     c) Change the version of GHC and cabal-install if necessary.
 
     d) Any other changes you want to make.
