@@ -15,7 +15,7 @@ cache:
 
 before-cache:
   # Don't cache the Hackage index
-  - rm -rf $HOME/cabal/packages/hackage.haskell.org
+  - rm -rf $HOME/.cabal/packages/hackage.haskell.org
 
 branches:
   only:
