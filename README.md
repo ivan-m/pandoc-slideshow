@@ -41,6 +41,10 @@ Directions for use
 
 4. Make sure you have enabled your branch on your [Travis-CI profile].
 
+    - You will probably want to set it so that only branches with a
+      `.travis.yml` file will be built, to avoid failing builds when
+      you updated the `shared-data` branch.
+
 [Pandoc]: http://pandoc.org/
 [reveal.js]: http://lab.hakim.se/reveal-js/
 [GitHub Pages]: https://pages.github.com/
