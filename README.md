@@ -37,8 +37,7 @@ Directions for use
     d) Any other changes you want to make.
 
 3. Any images, CSS changes or updates to the reveal.js subtree need to
-   be made in the `shared-data` branch, with master then rebased upon
-   that and force-pushed.
+   be made in the `shared-data` branch and then merged into `master`..
 
 4. Make sure you have enabled your branch on your [Travis-CI profile].
 
