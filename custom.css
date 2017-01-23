@@ -1,7 +1,8 @@
 .reveal h1 { font-size: 3em; }
 
 .slides section.has-light-background,
-.slides section.has-light-background h1 {
+.slides section.has-light-background h1,
+.slides section.has-light-background h2 {
     color: FireBrick;
 }
 
