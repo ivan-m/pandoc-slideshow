@@ -25,12 +25,11 @@ Directions for use
 
     a) Specify the `GH_REPO` to point to your actual repository.
 
-    b) Add a `GH_TOKEN` by [generating] one and then [encrypting] it
-        (because unless you're me, mine won't work for you).
+    b) Add a `GH_TOKEN` by [generating] one and then [encrypting] it.
 
-        Actually, even if you _are_ me, you'll need to re-encrypt it
-        as the encryption used is tied to the repository.  So sorry,
-        but you can't just randomly keep copying this repository :(
+       i.   Create a new token with `public_repo` permissions.
+       ii.  `travis encrypt GH_TOKEN=...`
+       iii. Replace current `secure: ...` with produced output.
 
     c) Change the version of GHC and cabal-install if necessary.
 
