@@ -35,7 +35,7 @@ About this configuration
 ## Speaker notes
 
 * Pandoc has in-built support for speaker notes with reveal.js (hit
-  `o` to reveal them`).
+  `s` to reveal them).
 
 *
     ```markdown
