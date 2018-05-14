@@ -25,7 +25,7 @@ Directions for use
 
     a) Specify the `GH_REPO` to point to your actual repository.
 
-    b) Add a `GH_TOKEN` by [generating] one and then encrypting it
+    b) Add a `GH_TOKEN` by [generating] one and then [encrypting] it
         (because unless you're me, mine won't work for you).
 
         Actually, even if you _are_ me, you'll need to re-encrypt it
