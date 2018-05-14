@@ -1,3 +1,5 @@
+# Avoid ruby stuff
+language: c
 sudo: false
 
 branches:
