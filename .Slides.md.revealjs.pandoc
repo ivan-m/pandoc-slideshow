@@ -3,8 +3,7 @@
 ;; pandoc-mode local settings file for Slides.md
 ;; saved on 2018.05.01 14:45
 
-((lua-filter "hclCodeBlocks.lua")
- (slide-level . 2)
+((slide-level . 2)
  (standalone . t)
  (template . "template.html")
  (highlight-style . "zenburn")
