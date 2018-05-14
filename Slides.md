@@ -34,23 +34,25 @@ About this configuration
 
 ## Speaker notes
 
-* I use a filter to turn a definition list labeled `Notes` into
-  speaker notes (hit `o` in reveal.js).
+* Pandoc has in-built support for speaker notes with reveal.js (hit
+  `o` to reveal them`).
 
 *
     ```markdown
-    Notes
-    :   * Note 1
-        * Note 2
+    ::: notes
+
+    * Note 1
+    * Note 2
+
+    :::
     ```
 
-* If you don't want to use this, you can remove this filter from the
-  pandoc-mode settings (and thus won't need pandoc-as-a-library
-  installed).
+::: notes
 
-Notes
-:   * Note 1
-    * Note 2
+* Note 1
+* Note 2
+
+:::
 
 ## Other
 
