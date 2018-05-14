@@ -30,8 +30,8 @@ addons:
     sources:
       - hvr-ghc
     packages:
-      - cabal-install-1.22
-      - ghc-7.10.1
+      - cabal-install-2.2
+      - ghc-8.4.2
 
 before_install:
   - export PATH=$HOME/.cabal/bin:$(printf "%s:" /opt/ghc/*/bin)$(printf "%s:" /opt/cabal/*/bin)$PATH
